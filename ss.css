@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.header-top{
+	text-align: left;
+    font-size: 20px;
+}
+.header{	
+   background-color: #FFFFE0	;
+   height: 90px;
+   margin: 0px;
+   text-align: right;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+}
+ul li a {
+	color: #800000;
+	letter-spacing: 0.1rem;
+}
+ul li a :hover{
+	color: #ffd358;
+	text-decoration: underline;
+}
+.menu li {
+	float: left;
+	padding: 30px;
+}
+.menu li a {
+	text-decoration: none;
+}
+form {
+	padding: 10px;
+	text-align: right;
+}
+input [type="search"]
+{
+	font-size: 17px;
+}
+footer{ background: #000; color: white;
+ text-align: center; padding: 7px 0;}  
+
+
